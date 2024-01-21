@@ -15,7 +15,7 @@
 将本项目克隆到本地：
 
 ```bash
-git clone https://github.com/your_username/ScrollableFixedHeaderTable.git
+git clone https://github.com/teletubbyies/ScrollableFixedHeaderTable.git
 ```
 
 
