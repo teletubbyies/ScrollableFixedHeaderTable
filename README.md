@@ -22,7 +22,7 @@ git clone https://github.com/teletubbyies/ScrollableFixedHeaderTable.git
 
 
 
-将`ScrollableFixedHeaderTable`文件夹复制到你的小程序项目的`components`目录下。
+将`src/components/ScrollableFixedHeaderTable`文件夹复制到你的小程序项目的`components`目录下。
 
 在需要使用此组件的页面的`JSON`文件中，添加以下代码以引入组件：
 
@@ -68,7 +68,7 @@ git clone https://github.com/teletubbyies/ScrollableFixedHeaderTable.git
 
 ## 示例
 
-以下是一个使用`ScrollableFixedHeaderTable`组件的简单示例：
+可通过导入src文件夹到新项目中以查看该示例。以下是一个使用`ScrollableFixedHeaderTable`组件的简单示例：
 
 `index.json`：
 
