@@ -68,7 +68,7 @@ git clone https://github.com/teletubbyies/ScrollableFixedHeaderTable.git
 
 ## 示例
 
-可通过导入src文件夹到新项目中以查看该示例。以下是一个使用`ScrollableFixedHeaderTable`组件的简单示例：
+可通过导入src文件夹到新项目中以具体查看该示例。以下是一个使用`ScrollableFixedHeaderTable`组件的简单示例：
 
 `index.json`：
 
