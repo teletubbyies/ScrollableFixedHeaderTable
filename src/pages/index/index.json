@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "scrollable-fixed-header-table": "/components/ScrollableFixedHeaderTable/ScrollableFixedHeaderTable"
+  }
+}

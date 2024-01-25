@@ -1,0 +1,33 @@
+/* components/ScrollableFixedHeaderTable/ScrollableFixedHeaderTable.wxss */
+.tr {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  width: 100%;
+}
+
+.td, .th {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  height: 100%;
+}
+
+.th {
+  color: #fff;
+  font-size: 15px;
+}
+
+.tr-stripe {
+  background: #fff;
+}
+.tr-stripe:nth-child(2n) {
+  background: #f0eeee;
+}
+
+.td {
+  font-size: 12px;
+}
+
+

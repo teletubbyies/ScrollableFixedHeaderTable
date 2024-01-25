@@ -1,0 +1,21 @@
+<!--components/ScrollableFixedHeaderTable/ScrollableFixedHeaderTable.wxml-->
+<!-- 表头，此处禁用了表头的指针事件，即表头将不会响应触摸滚动事件。表头的滚动由表格内容的滑动引起。 -->
+<scroll-view class="header" scroll-x="true" scroll-left="{{headerScrollLeft}}" style="pointer-events: none; position: fixed; z-index: 100;">
+  <view class="tr">
+    <view class="th" style="min-width: {{minWidth}}px; {{borderline ? 'border: 0.1px solid black;' : ''}} background:{{headerBackground}}" wx:for="{{columnNames}}" wx:key="*this" wx:for-item="colName">
+      <text>{{colName}}</text>
+    </view>
+  </view>
+</scroll-view>
+
+<!-- 表格内容 -->
+<!-- table数组的每个数组元素作为rowDatas，rowDatas是一个包含该行所有信息的数组，故还可以循环展开 -->
+<scroll-view class="content" wx:if="{{columnNames.length != 0}}" scroll-x="true" bindscroll="syncScroll" style="padding-top: {{headerHeight}}rem;">
+
+  <view class="tr {{stripe ? 'tr-stripe' : ''}}" wx:for="{{tableData}}" wx:key="*this" wx:for-index='rowIndex' wx:for-item="rowData" >
+    <view class="td" style=" min-width: {{minWidth}}px; {{borderline ? 'border: 0.1px solid black;' : ''}} {{(stripe && (rowIndex % 2 == 1)) ? 'background: #f0eeee;' : '' }}" wx:for="{{rowData}}" wx:key="*this" wx:for-item="detail" wx:for-index='colIndex' bindtap="onCellTap" data-row="{{rowIndex}}" data-col="{{colIndex}}">
+      {{(detail.length == 0 )? noDataMsg : detail}}
+    </view>
+  </view>
+
+</scroll-view>

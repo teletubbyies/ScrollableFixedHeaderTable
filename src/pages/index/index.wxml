@@ -1,0 +1,10 @@
+
+<scrollable-fixed-header-table
+  column-names="{{columnNames}}"
+  table-data="{{table}}"
+  bind:celltap="onCellTap"
+  stripe="{{stripe}}"
+  borderline="{{borderline}}"
+  header-background="{{headerbg}}"
+  no-data-msg="无"
+/>
