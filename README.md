@@ -151,4 +151,4 @@ Page({
 
 ## 许可证
 
-该项目基于 MIT 许可证。更多信息请参阅 [LICENSE](https://mytan.maiseed.com.cn/LICENSE) 文件。
+该项目基于 MIT 许可证。更多信息请参阅 [LICENSE](https://github.com/teletubbyies/ScrollableFixedHeaderTable?tab=MIT-1-ov-file) 文件。
