@@ -1,6 +1,6 @@
 <!--components/ScrollableFixedHeaderTable/ScrollableFixedHeaderTable.wxml-->
 <!-- 表头，此处禁用了表头的指针事件，即表头将不会响应触摸滚动事件。表头的滚动由表格内容的滑动引起。 -->
-<scroll-view class="header" scroll-x="true" scroll-left="{{headerScrollLeft}}" style="pointer-events: none; position: fixed; z-index: 100;">
+<scroll-view class="header" scroll-x="true" scroll-left="{{headerScrollLeft}}" style="pointer-events: none; position: sticky; top: 0; z-index: 100;">
   <view class="tr">
     <view class="th" style="min-width: {{minWidth}}px; {{borderline ? 'border: 0.1px solid black;' : ''}} background:{{headerBackground}}" wx:for="{{columnNames}}" wx:key="*this" wx:for-item="colName">
       <text>{{colName}}</text>
