@@ -153,6 +153,4 @@ Page({
 
 欢迎提出问题、报告 bug 或提供改进建议。请通过 GitHub 的 Issues 功能进行反馈和讨论。
 
-## 许可证
 
-该项目基于 MIT 许可证。更多信息请参阅 [LICENSE](https://github.com/teletubbyies/ScrollableFixedHeaderTable?tab=MIT-1-ov-file) 文件。
